@@ -1,2 +1,4 @@
-# magistrsko_delo
-Repozitorij je namenjen pisanju magistrskega dela na programu Matematika 2. stopnje, ki se izvaja na Fakulteti za matematiko in fiziko Univerze v Ljubljani. 
+# Master's thesis: MACAULAY MATRICES
+
+This repository contains my master's work that observes the properties of the Macaulay matrices in both algebraic and numerical analysis sense. 
+Greater detail will be added as the thesis progresses. 
