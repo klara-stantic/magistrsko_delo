@@ -1,0 +1,122 @@
+\documentclass[mat2, anglescina, tisk]{fmfdelo}
+% \documentclass[fin2, anglescina, tisk]{fmfdelo}
+% \documentclass[isrm2, anglescina, tisk]{fmfdelo}
+% \documentclass[ped, anglescina, tisk]{fmfdelo}
+% Če pobrišete možnost tisk, bodo povezave obarvane,
+% na začetku pa ne bo praznih strani po naslovu, …
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% METAPODATKI
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% - vaše ime
+\avtor{Klara Stantič}
+
+% - naslov dela v slovenščini
+\naslov{Macaulayeve matrike}
+
+% - naslov dela v angleščini
+\title{Macaulay matrices}
+
+% - ime mentorja/mentorice s polnim nazivom:
+%   - doc.~dr.~Ime Priimek
+%   - izr.~prof.~dr.~Ime Priimek
+%   - prof.~dr.~Ime Priimek
+%   za druge variante uporabite ustrezne ukaze
+% \mentor{...}
+% \somentor{...}
+% \mentorica{...}
+% \somentorica{...}
+\mentorja{prof.~dr.~Bor~Plestenjak}{izr.~prof.~dr.~rer.~nat.~Daniel~Smertnig}
+% \somentorja{...}{...}
+% \mentorici{...}{...}
+% \somentorici{...}{...}
+% mentorja morate navesti še z angleškim nazivom:
+% - doc.~dr. = Assist.~Prof.~Dr.
+% - izr.~prof.~dr. = Assoc.~Prof.~Dr.
+% - prof.~dr. = Prof.~Dr.
+% \supervisor{}
+% \supervisor{...}
+% \cosupervisor{}
+\supervisors{Prof.~Dr.~Bor~Plestenjak}{Assoc.~Prof.~Dr.~Rer.~Nat.~Daniel~Smertnig}
+% \cosupervisors{...}{...}
+
+% - leto magisterija
+\letnica{2026}
+
+% - povzetek v slovenščini
+%   V povzetku na kratko opišite vsebinske rezultate dela. Sem ne sodi razlaga
+%   organizacije dela, torej v katerem razdelku je kaj, pač pa le opis vsebine.
+\povzetek{Tukaj napišemo povzetek vsebine. Sem sodi razlaga vsebine in ne opis tega, kako je delo organizirano.}
+
+% - povzetek v angleščini
+\abstract{An abstract of the work is written here. This includes a short description of
+the content and not the structure of your work.}
+
+% - klasifikacijske oznake, ločene z vejicami
+%   Oznake, ki opisujejo področje dela, so dostopne na strani https://www.ams.org/msc/
+\klasifikacija{74B05, 65N99}
+
+% - ključne besede, ki nastopajo v delu, ločene s \sep
+\kljucnebesede{Macauleyeve~matrike\sep ničle~polinomov}
+
+% - angleški prevod ključnih besed
+\keywords{integration\sep complex\sep \texorpdfstring{$C^*$}{C*}-algebras}
+
+% - neobvezna zahvala
+\zahvala{
+  Neobvezno.
+  Zahvaljujem se \dots
+}
+
+% - ime datoteke z viri (vključno s končnico .bib), če uporabljate BibTeX
+\literatura{literatura.bib}
+
+% - ime datoteke z razširjenim povzetkom v slovenskem jeziku
+\razsirjenipovzetek{primer/razsirjenipovzetek.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DODATNE DEFINICIJE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% naložite dodatne pakete, ki jih potrebujete
+\usepackage{units}        % fizikalne enote kot \unit[12]{kg} s polovico nedeljivega presledka, glej primer v kodi
+\usepackage{graphicx}     % za slike
+% \usepackage{tikz}
+% VEČ ZANIMIVIH PAKETOV
+% \usepackage{array}      % več možnosti za tabele
+% \usepackage[list=true,listformat=simple]{subcaption}  % več kot ena slika na figure, omogoči slika 1a, slika 1b
+% \usepackage[all]{xy}    % diagrami
+% \usepackage{doi}        % za clickable DOI entrye v bibliografiji
+% \usepackage{enumerate}     % več možnosti za sezname
+
+% Za barvanje source kode
+% \usepackage{minted}
+% \renewcommand\listingscaption{Program}
+
+% Za pisanje psevdokode
+% \usepackage{algpseudocode}  % za psevdokodo
+% \usepackage{algorithm}
+% \floatname{algorithm}{Algoritem}
+% \renewcommand{\listalgorithmname}{Kazalo algoritmov}
+
+% deklarirajte vse matematične operatorje, da jih bo LaTeX pravilno stavil
+% \DeclareMathOperator{\...}{...}
+
+% vstavite svoje definicije ...
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+% Lahko se zgodi, da je ukaz \C definiral že paket hyperref,
+% zato dobite napako: Command \C already defined.
+% V tem primeru namesto ukaza \newcommand uporabite \renewcommand
+\newcommand{\C}{\mathbb C}
+\newcommand{\Q}{\mathbb Q}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ZAČETEK VSEBINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+vsebina.
+\end{document}
